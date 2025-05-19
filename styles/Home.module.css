@@ -3,47 +3,53 @@
   background-image: url("/background.png");
   background-size: cover;
   height: 100vh;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.header {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 24px;
-  background-color: rgba(0, 100, 0, 0.6);
-  padding: 10px 20px;
-  border-radius: 10px;
+  color: white;
 }
 
 .panel {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   background-color: rgba(0, 100, 0, 0.6);
-  padding: 30px;
+  padding: 40px;
   border-radius: 20px;
-}
-
-.device {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  text-align: center;
 }
 
 .btn {
-  font-size: 24px;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 10px;
+  font-size: 22px;
+  padding: 12px 25px;
+  background-color: #4CAF50;
   border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.loginBox {
+  background-color: rgba(0, 100, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.loginBox input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.loginBox button {
+  padding: 10px;
+  font-size: 18px;
   background-color: #4CAF50;
   color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
